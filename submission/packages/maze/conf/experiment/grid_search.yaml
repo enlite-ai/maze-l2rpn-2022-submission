@@ -1,0 +1,19 @@
+# @package _global_
+
+# defaults to override
+defaults:
+  - override /runner: local
+  - override /hydra/launcher: local
+
+# set training runner concurrency
+runner:
+  concurrency: 0
+
+# set grid search concurrency
+hydra:
+  launcher:
+    # maximum number of parallel grid search jobs
+    # if -1, this is set to the number of CPUs
+    n_jobs: 4
+
+# Hint: make sure that runner.concurrency * hydra.launcher.n_jobs <= CPUs

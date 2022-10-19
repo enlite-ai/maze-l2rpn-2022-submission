@@ -1,0 +1,16 @@
+# @package _global_
+
+algorithm:
+  n_rollout_steps: 5
+  n_epochs: 1
+  eval_repeats: 1
+  epoch_length: 2
+  eval_concurrency: 2
+  actors_batch_size: 2
+  num_actors: 2
+  rollout_evaluator:
+    n_episodes: 1
+
+runner:
+  normalization_samples: 1
+  eval_concurrency: 1
