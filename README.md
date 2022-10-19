@@ -17,7 +17,7 @@ You can download it from [here](https://codalab.lisn.upsaclay.fr/competitions/54
 
 **2. Download and Extract the Model Data**
 
-You can download model weights and parameters from [here](https://drive.google.com/file/d/16k-oZiHfYotij3peMCJvj6oVFuFhf3nG/view?usp=sharing).
+You can download model weights and parameters from [here](https://github.com/enlite-ai/maze-l2rpn-2022-submission/releases/download/WCCI_2022_submission/experiment_data_l2rpn_2022.zip).
 
 Next, copy the content of this archive into the directory `submission/experiment_data`.
 
